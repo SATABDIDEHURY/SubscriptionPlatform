@@ -1,5 +1,6 @@
 package com.myProject.subscription.controller;
 
+import com.myProject.subscription.dto.LoginDto;
 import com.myProject.subscription.dto.UserDto;
 import com.myProject.subscription.entity.User;
 import com.myProject.subscription.service.UserService;
@@ -20,5 +21,10 @@ public class UserController {
         System.out.println("It Is controller class");
 
         return userService.resisterUser(user);
+    }
+
+    @PostMapping("/login")
+    public String login(@RequestBody LoginDto request){
+        return userService.loginUser(request);
     }
 }

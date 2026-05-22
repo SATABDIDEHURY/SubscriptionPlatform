@@ -19,7 +19,7 @@ public class SecutiryConfig {
         http
                 .csrf(csrf -> csrf.disable())  // ✅ needed for Postman
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/users/register").permitAll() // ✅ allow register API
+                        .requestMatchers("/users/**").permitAll() // ✅ allow register API
                         .anyRequest().authenticated() // others need auth
                 );
 
