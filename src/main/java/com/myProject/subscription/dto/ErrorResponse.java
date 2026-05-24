@@ -1,4 +1,4 @@
-package com.myProject.subscription.exception;
+package com.myProject.subscription.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

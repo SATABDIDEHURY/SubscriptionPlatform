@@ -1,10 +1,11 @@
 package com.myProject.subscription.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
-public class UserDto {
+@AllArgsConstructor
+public class RegisterRespDto {
     private String name;
     private String email;
-    private String password;
 }

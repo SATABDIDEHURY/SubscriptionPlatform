@@ -5,11 +5,8 @@ import lombok.*;
 
 @Entity
 @Table(name = "users")
-@Setter
 @Getter
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,4 +21,10 @@ public class User {
 
 //    @Enumerated(EnumType.STRING)
 //    private Role role;
+
+    public User(String name, String email, String password){
+        this.name = name;
+        this.email = email;
+        this.password = password;
+    }
 }
