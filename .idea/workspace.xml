@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ade33c9-6e74-4672-9651-c1a1aa2c39d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Auth-Service/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/SubscriptionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/AuthServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/dto/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/dto/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/dto/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/dto/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/dto/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/dto/LoginDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/dto/RegisterDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/dto/RegisterDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/dto/RegisterRespDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/dto/RegisterRespDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/entity/RefreshToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/entity/RefreshToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/exception/InvalidCredentialException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/exception/InvalidCredentialException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/exception/InvalidRefreshToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/exception/InvalidRefreshToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/exception/UserAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/exception/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/exception/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/jwt/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/jwt/JwtTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/jwt/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/jwt/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/repository/AuthRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/repository/RefreshTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/service/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/service/RefreshTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/service/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/subscription/service/impl/RefreshTokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/com/myProject/AuthService/service/impl/RefreshTokenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-Service/src/test/java/com/myProject/subscription/SubscriptionApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth-Service/src/test/java/com/myProject/AuthService/SubscriptionApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3ELQ2hWoRgJIOIR0scL72GGFqbb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/SpringBoot/SubscriptionPlatform",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ade33c9-6e74-4672-9651-c1a1aa2c39d4" name="Changes" comment="" />
+      <created>1779955164506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779955164506</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
